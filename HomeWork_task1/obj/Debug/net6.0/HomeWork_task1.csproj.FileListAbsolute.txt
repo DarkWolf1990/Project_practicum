@@ -1,0 +1,15 @@
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\obj\Debug\net6.0\HomeWork_task1.csproj.AssemblyReference.cache
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\obj\Debug\net6.0\HomeWork_task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\obj\Debug\net6.0\HomeWork_task1.AssemblyInfoInputs.cache
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\obj\Debug\net6.0\HomeWork_task1.AssemblyInfo.cs
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\obj\Debug\net6.0\HomeWork_task1.csproj.CoreCompileInputs.cache
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\bin\Debug\net6.0\HomeWork_task1.exe
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\bin\Debug\net6.0\HomeWork_task1.deps.json
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\bin\Debug\net6.0\HomeWork_task1.runtimeconfig.json
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\bin\Debug\net6.0\HomeWork_task1.dll
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\bin\Debug\net6.0\HomeWork_task1.pdb
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\obj\Debug\net6.0\HomeWork_task1.dll
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\obj\Debug\net6.0\refint\HomeWork_task1.dll
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\obj\Debug\net6.0\HomeWork_task1.pdb
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\obj\Debug\net6.0\HomeWork_task1.genruntimeconfig.cache
+C:\Users\white\OneDrive\Рабочий стол\git_education\Practicum_1\HomeWork_task1\obj\Debug\net6.0\ref\HomeWork_task1.dll
