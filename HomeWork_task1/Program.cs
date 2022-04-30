@@ -16,3 +16,4 @@ Console.WriteLine("Максимальное число");
 Console.WriteLine(max);
 Console.WriteLine("Минимальное число");
 Console.WriteLine(min);
+Console.ReadKey;
