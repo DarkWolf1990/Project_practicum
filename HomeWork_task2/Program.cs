@@ -22,4 +22,4 @@ if (num1 < num2 & num2 > num3) max = num2;
 if (num1 < num2 & num2 < num3) max = num3;
 Console.WriteLine("Максимальное число");
 Console.WriteLine(max);
-Console.ReadKey;
+Console.ReadKey();
