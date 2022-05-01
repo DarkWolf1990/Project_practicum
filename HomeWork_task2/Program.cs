@@ -15,7 +15,7 @@ int count=0;
 int max = num1;
 while(count <3)
 {
-	count = count + 1;
+	count++;
 }
 if (num1 > num2 & num2 < num3) max = num1;
 if (num1 < num2 & num2 > num3) max = num2;
