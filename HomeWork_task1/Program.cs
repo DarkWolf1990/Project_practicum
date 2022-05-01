@@ -3,7 +3,6 @@
  и выдаёт, какое число большее,
  а какое меньшее. */
 
-
 Console.WriteLine(" введите целое число a:");
 int num1 = int.Parse(Console.ReadLine());
 Console.WriteLine(" введите целое число b:");
