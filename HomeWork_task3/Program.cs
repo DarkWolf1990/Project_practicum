@@ -5,15 +5,17 @@
 */
 
 Console.WriteLine("введите целое число :");
-int numbersA = int.Parse (Console.ReadLine());
-if (numbersA % 2==1)
+int numbersA = int.Parse(Console.ReadLine());
+
+if (numbersA % 2 == 1)
+
+ {
+//Console.WriteLine("число нечетное");
+ }
+ else
 {
-Console.WriteLine("число нечетное");
+	Console.WriteLine("Число четное");
 }
-else
-{
- Console.WriteLine("Число четное");
-}
-  Console.ReadKey();
+Console.ReadKey();
 
 
