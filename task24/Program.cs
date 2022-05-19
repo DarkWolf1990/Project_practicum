@@ -11,7 +11,7 @@ int num = int.Parse(Console.ReadLine());
 int GetSumNumbers (int number)
 {
 int sum = 0;
-for (int i = 1; i <= num; i++ )
+for (int i = 1; i <= number; i++ )
 {
 sum = sum+1;
 }
