@@ -3,19 +3,20 @@
 // и выдаёт, какое число большее,
 // а какое меньшее.
 
-Console.WriteLine("Ввидите целое число а:");
+Console.WriteLine("Ввидите целое число а:" + " ");
 int num1 = int.Parse(Console.ReadLine());
-Console.Write("введите число b" +" ");
+Console.Write("введите число b" + " ");
 int num2 = int.Parse(Console.ReadLine());
-bool Intresult = num1 > num2;
- 
- if (Intresult)
+int max = num1;
+int min = num2;
+
+if (num1 < num2) max = num2; min = num1;
+if (num1 > num2) max = num1; min = num2;
 {
-  Console.Write("Первое число больше"+" ");
-  Console.Write("Второе число меньше"+" ");
+	Console.WriteLine($"{max}");
+	Console.WriteLine($"{min}");
+	Console.WriteLine($" Это максимальное число -> {max}");
+	Console.WriteLine($" Это минимальное  число -> {min}");
 }
-else
-{
-  Console.Write("Второе число больше"+" ");
-  Console.Write("Первое число меньше"+" ");
-}
+
+
