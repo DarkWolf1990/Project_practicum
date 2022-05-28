@@ -9,12 +9,12 @@ int numbersA = int.Parse(Console.ReadLine());
 
 if (numbersA % 2 == 1)
 
- {
-//Console.WriteLine("число нечетное");
- }
- else
 {
-	Console.WriteLine("Число четное");
+	Console.WriteLine($"Нет");
+}
+else
+{
+	Console.WriteLine($"Да");
 }
 Console.ReadKey();
 
