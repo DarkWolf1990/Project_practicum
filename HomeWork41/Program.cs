@@ -7,10 +7,10 @@ Console.WriteLine(" Введите целые числа через пробел
 int[] num = Console.ReadLine().Split().Select(int.Parse).ToArray();
 int count = 0;
 
-for (int i = 0;  i < num.Length; i++)
-if (num[i] > 0) count +=1;
+for (int i = 0; i < num.Length; i++)
+	if (num[i] > 0) count += 1;
 {
-	
+
 }
 Console.WriteLine($"сумма чисел  {count}");
 Console.ReadKey();
