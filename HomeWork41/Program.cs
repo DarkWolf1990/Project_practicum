@@ -9,10 +9,8 @@ int count = 0;
 
 for (int i = 0; i < num.Length; i++)
 	if (num[i] > 0) count += 1;
-{
 
-}
-Console.WriteLine($"сумма чисел  {count}");
+Console.WriteLine($"количество чисел  {count}");
 Console.ReadKey();
 
 
