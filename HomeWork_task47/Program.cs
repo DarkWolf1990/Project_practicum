@@ -11,22 +11,17 @@ int m = int.Parse(Console.ReadLine());
 Console.Write("Введите число n ->  ");
 int n = int.Parse(Console.ReadLine());
 
-Console.WriteLine($"m = {m}, n = {n}");
-
 double[,] GetArray = new double[m, n];
 Random rnd = new Random();
 MakeArrDouble(GetArray);
-
-Console.WriteLine();
-
 void MakeArrDouble(double[,] array)
 {
 	for (int i = 0; i < array.GetLength(0); i++)
 	{
 		for (int j = 0; j < array.GetLength(1); j++)
 		{
-			array[i, j] = rnd.Next(1, 5) + rnd.NextDouble() * 20 / 2147483648 - 10.0;
-			Console.Write(String.Format("{0,5:f1}", array[i, j]));
+			array[i, j] = rnd.NextDouble() * 20 - 10;
+			Console.Write("{0,6:F2}", array[i, j]);
 		}
 	}
 	void PrintArray(double[,] array)
@@ -37,23 +32,23 @@ void MakeArrDouble(double[,] array)
 			{
 				Console.Write($"{array[i, j]} ");
 			}
-			Console.WriteLine();
-
 		}
 	}
-	void WriteArray (double[,] array){
-for (int i = 0; i < m; i++)
-  {
-      for (int j = 0; j < n; j++)
-      {
-        double alignNumber = Math.Round(array[i, j], 1);
-        Console.Write(alignNumber + " ");
-      }
-      Console.WriteLine();
+	void WriteArray(double[,] array)
+	{
+		for (int i = 0; i < m; i++)
+		{
+			for (int j = 0; j < n; j++)
+			{
+				double alignNumber = Math.Round(array[i, j], 1);
+				Console.Write(alignNumber + " ");
+			}
+			Console.WriteLine();
+		}
+		PrintArray(GetArray);
+		WriteArray(array);
+		Console.ReadKey();
 	}
-	PrintArray(GetArray);
-	WriteArray(array);
-}
 }
 
 
