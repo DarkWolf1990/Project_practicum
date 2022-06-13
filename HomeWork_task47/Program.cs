@@ -45,6 +45,7 @@ void MakeArrDouble(double[,] array)
 			}
 			Console.WriteLine();
 		}
+	  
 		PrintArray(GetArray);
 		WriteArray(array);
 		Console.ReadKey();
