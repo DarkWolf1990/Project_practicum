@@ -6,9 +6,9 @@
 // 8 7,8 -7,1 9
 
 Console.Clear();
-Console.Write("Введите число m ->  ");
+Console.WriteLine("Введите число m ->  ");
 int m = int.Parse(Console.ReadLine());
-Console.Write("Введите число n ->  ");
+Console.WriteLine("Введите число n ->  ");
 int n = int.Parse(Console.ReadLine());
 
 double[,] GetArray = new double[m, n];
@@ -21,7 +21,7 @@ void MakeArrDouble(double[,] array)
 		for (int j = 0; j < array.GetLength(1); j++)
 		{
 			array[i, j] = rnd.NextDouble() * 20 - 10;
-			Console.Write("{0,6:F2}", array[i, j]);
+			Console.WriteLine("{0,6:F2}", array[i, j]);
 		}
 	}
 	void PrintArray(double[,] array)
@@ -30,7 +30,7 @@ void MakeArrDouble(double[,] array)
 		{
 			for (int j = 0; j < array.GetLength(1); j++)
 			{
-				Console.Write($"{array[i, j]} ");
+				Console.WriteLine($"{array[i, j]} ");
 			}
 		}
 	}
@@ -41,13 +41,14 @@ void MakeArrDouble(double[,] array)
 			for (int j = 0; j < n; j++)
 			{
 				double alignNumber = Math.Round(array[i, j], 1);
-				Console.Write(alignNumber + " ");
+				Console.WriteLine(alignNumber + " ");
 			}
 			Console.WriteLine();
 		}
-	  
-		PrintArray(GetArray);
+	  	
 		WriteArray(array);
+		PrintArray(GetArray);
+	
 		Console.ReadKey();
 	}
 }
